@@ -1,0 +1,17 @@
+# Compiled class file
+*.class
+
+# Log file
+*.log
+
+# OS files.
+.DS_Store*
+Thumbs.db
+
+# Package Files #
+*.jar
+/bin/*
+
+# Misc
+.project
+.classpath
