@@ -1,0 +1,9 @@
+name: noPeacefulPlugin
+version: 1.0
+author: 3urobeat
+main: org.herreurobeat.noPeacefulPlugin.Main
+description: Blocks users from running '/difficulty peaceful' to prevent mobs from despawning.
+
+commands:
+  npinfo:
+    description: What's this? (Help)
