@@ -13,7 +13,7 @@ import org.bukkit.plugin.java.JavaPlugin;
 
 public class Main extends JavaPlugin {
 	
-	String supportedversion = "1.16";
+	String supportedversion = "1.16 - 1.19";
 	String pluginversion = "1.0";
 	
 	@Override
