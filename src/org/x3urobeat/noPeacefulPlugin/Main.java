@@ -1,4 +1,4 @@
-package org.herreurobeat.noPeacefulPlugin;
+package org.x3urobeat.noPeacefulPlugin;
 
 import org.bukkit.Bukkit;
 import org.bukkit.GameRule;
@@ -13,7 +13,7 @@ import org.bukkit.plugin.java.JavaPlugin;
 
 public class Main extends JavaPlugin {
 	
-	String supportedversion = "1.16 - 1.19";
+	String supportedversion = "1.16 - 1.20";
 	String pluginversion = "1.0";
 	
 	@Override
@@ -32,7 +32,7 @@ public class Main extends JavaPlugin {
 				if(!p.getWorld().getGameRuleValue(GameRule.SEND_COMMAND_FEEDBACK)) return false; //check gamerule and stop if send command feedback is false
 			}
 			
-			sender.sendMessage("noPeacefulPlugin by 3urobeat v" + pluginversion + " \n----\nBlocks users from running '/difficulty peaceful' to prevent mobs from despawning.\n----\nhttps://github.com/HerrEurobeat/noPeacefulPlugin");
+			sender.sendMessage("noPeacefulPlugin by 3urobeat v" + pluginversion + " \n----\nBlocks users from running '/difficulty peaceful' to prevent mobs from despawning.\n----\nhttps://github.com/3urobeat/noPeacefulPlugin");
 		}
 		
 		return false;
